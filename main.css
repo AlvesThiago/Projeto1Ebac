@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-transform: none;
+    transition: all .1s linear;
+}
+
+body, input, button{
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    max-width: 1266px;
+    margin: 0 auto;
+}
+
+body > header{
+    background-color: #F7F7F9;
+    padding: 16px 0;
+    margin-top: 16px;
+    border-radius: 80px;
+}
+
+header a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a:hover{
+    font-weight: 700;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.container{
+    max-width: 1166px;
+    margin: 0 auto;
+}
+
+.home{
+    margin-top: 80px;
+}
+
+.home h1,
+.content h1,
+.sellers h1,
+.contact h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.content-list h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.home h1 span{
+    background-image: linear-gradient(to right, rgb(211, 163, 59), rgb(79, 109, 209), rgb(194, 15, 218));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 48px;
+}
+
+.home p,
+.content p,
+.sellers p,
+.contact p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.course-list{
+    margin-top: 25px;
+}
+
+.course-list li{
+    display: inline-flex;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.course-list a{
+    border: solid 1.5px #000;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+#wecourse{
+    border: none;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgba(204, 144, 16, 0.897), rgba(218, 45, 15, 0.829), rgba(194, 15, 218, 0.829));
+    color: #F7F7F9 ;
+    cursor: pointer;
+}
+
+.course-list a:hover{
+    background-color: #22053D !important;
+    color: #F7F7F9 !important;
+}
+
+.content{
+    margin-top: 80px;
+}
+
+.content-list{
+    display: inline-flex;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.content-list h2, 
+.content-list p{
+    margin-bottom: 20px;
+    color: #F7F7F9;
+}
+
+.content-list a{
+    border: solid 2px #F7F7F9;
+    padding: 10px;
+    color: #F7F7F9;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.content-list a:hover{
+    background-color: #F7F7F9;
+    color: #000;
+    border: none;
+}
+
+
+.courses{
+    background-image: linear-gradient(to top, rgb(105, 105, 230), rgba(64, 14, 110, 0.829));
+    padding: 50px 0;
+    margin-right: 18px;
+    max-width: 600px;
+    border: none;
+    border-radius: 30px;
+}
+
+.courses:hover,
+.profession:hover{
+    transform: scale(1.02);
+    transition: transform 0.5s;
+}
+
+.courses img,
+.profession img{
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.profession{
+    background-image: linear-gradient(to top, rgb(231, 155, 68), rgb(207, 113, 5));
+    padding: 50px 0;
+    max-width: 600px;
+    border: none;
+    border-radius: 30px;
+}
+
+.sellers{
+    margin-top: 80px;
+}
+
+.sellers h1,
+.sellers p{
+    text-align: center;
+}
+
+.sellers img{
+    width: 100%;
+    margin-top: 45px;
+}
+
+.contact{
+    margin-top: 80px;
+}
+
+.contact-container{
+    background-image: linear-gradient(to right, rgba(194, 15, 218, 0.829), rgb(207, 113, 5), rgb(226, 171, 107));
+    text-align: start;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.contact-container h1,
+.contact-container p{
+    color: #F7F7F9;
+}
+
+.contact-forms{
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.contact-forms input{
+    padding: 12px;
+    margin-right: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-forms button{
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+    color: #F7F7F9;
+    cursor: pointer;
+}
+
+.contact-forms button:hover{
+    background-color: rgb(105, 105, 230);
+}
