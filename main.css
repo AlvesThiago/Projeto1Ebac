@@ -69,6 +69,7 @@ header li a:hover{
 .home h1,
 .content h1,
 .sellers h1,
+.footer-container h1,
 .contact h1{
     font-size: 42px;
     font-weight: 600;
@@ -204,7 +205,7 @@ header li a:hover{
 }
 
 .contact-container{
-    background-image: linear-gradient(to right, rgba(194, 15, 218, 0.829), rgb(207, 113, 5), rgb(226, 171, 107));
+    background-image: linear-gradient(to right, rgba(194, 15, 218, 0.829), rgb(236, 38, 137), rgb(226, 171, 107));
     text-align: start;
     border-radius: 20px;
     padding: 50px;
@@ -240,3 +241,57 @@ header li a:hover{
 .contact-forms button:hover{
     background-color: rgb(105, 105, 230);
 }
+
+
+.footer{
+    background-color: #F7F7F9;
+    padding: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container h3{
+    font-size: 20px;
+}
+
+.footer-container h4{
+    font-size: 16px;
+}
+
+.footer-container a{
+    font-weight: 300;
+}
+
+.footer-container a:hover{
+    font-weight: 500;
+}
+
+.line{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.description{
+    margin-top: 16px;
+}
+
+.description p,
+.description address{
+    font-weight: 300;
+    font-size: 14px;
+}
+
