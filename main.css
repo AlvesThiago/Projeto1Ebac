@@ -323,10 +323,11 @@ nav ul li{
         position: absolute;
         top: 70px;
         left: 0; right: 0;
+        width: 100%;
         flex-direction: column;
         text-align: center;
         background-color: #f7f7f7;
-        border-radius: 15px;
+        border-radius: 0px 0px 15px 15px;
     }
 
     nav ul li{
@@ -420,7 +421,7 @@ nav ul li{
         flex-direction: column;
         text-align: center;
         background-color: #f7f7f7;
-        border-radius: 15px;
+        border-radius: 0px 0px 15px 15px;
     }
 
     nav ul li{
