@@ -36,20 +36,29 @@ header a{
     text-decoration: none;
 }
 
-
-header .container{
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    height: 70px;
 }
 
-header li{
-    display: inline;
-    margin-left: 16px;
+nav ul{
+    display: flex;
+    gap: 30px;   
 }
 
-header li a:hover{
-    font-weight: 700;
+nav ul li{
+    list-style: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    font-size: 1.5em;
 }
 
 .logo{
@@ -64,6 +73,7 @@ header li a:hover{
 
 .home{
     margin-top: 80px;
+    width: 100%;
 }
 
 .home h1,
@@ -97,6 +107,7 @@ header li a:hover{
 
 .course-list{
     margin-top: 25px;
+    width: 100%;
 }
 
 .course-list li{
@@ -154,7 +165,6 @@ header li a:hover{
     color: #000;
     border: none;
 }
-
 
 .courses{
     background-image: linear-gradient(to top, rgb(105, 105, 230), rgba(64, 14, 110, 0.829));
@@ -295,3 +305,220 @@ header li a:hover{
     font-size: 14px;
 }
 
+@media screen and (max-width:640px){
+    .container{
+        max-width: 90%;
+    }
+
+    body > header{
+        padding: 10px 0;
+    }
+
+    header{
+        max-width: 90%;
+    }
+
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0; right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f7f7f7;
+        border-radius: 15px;
+    }
+
+    nav ul li{
+        padding: 20px;
+        
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    .course-list a{
+        padding: 15px;
+    }
+
+    .course-list{
+        display: block;
+        text-align: center;
+    }
+    
+
+    .content-list{
+        flex-direction: column;
+    }
+
+    .content-list p{
+        font-size: 1em;
+    }
+
+    .courses{
+        margin-right: 0;
+        margin-bottom: 36px;
+    }
+
+    .content{
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .sellers{
+        margin-top: 50px;
+    }
+    
+    .contact{
+        margin-top: 80px;
+    }
+
+    .contact-forms{
+        flex-direction: column;
+    }
+
+    .contact-forms input{
+        margin-bottom: 16px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-container h3,
+    .footer-container h4{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .social-links{
+        margin-top: 16px;
+        display: flex;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:875px){
+    .container{
+        max-width: 90%;
+    }
+
+    header{
+        max-width: 90%;
+    }
+
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0; right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f7f7f7;
+        border-radius: 15px;
+    }
+
+    nav ul li{
+        padding: 20px;
+        
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    .course-list a{
+        padding: 15px;
+    }
+
+    .course-list{
+        display: block;
+        text-align: center;
+    }
+    
+
+    .content-list{
+        flex-direction: column;
+    }
+
+    .content-list p{
+        font-size: 1em;
+    }
+
+    .courses{
+        margin-right: 0;
+        margin-bottom: 36px;
+    }
+
+    .content{
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .sellers{
+        margin-top: 50px;
+    }
+    
+    .contact{
+        margin-top: 80px;
+    }
+
+    .contact-forms{
+        flex-direction: column;
+    }
+
+    .contact-forms input{
+        margin-bottom: 16px;
+    }
+
+    .footer-container{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-container .footer-contact{
+        flex-direction: column;
+    }
+
+    .footer-container h3,
+    .footer-container h4{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .social-links{
+        margin-top: 16px;
+        display: flex;
+        gap: 16px;
+    }
+
+}
+
+@media screen and (min-width:876px) and (max-width:1023px) {
+    .container{
+        max-width: 90%;
+    }
+
+    header{
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .container{
+        max-width: 90%;
+    }
+
+    header{
+        max-width: 90%;
+    }
+}
